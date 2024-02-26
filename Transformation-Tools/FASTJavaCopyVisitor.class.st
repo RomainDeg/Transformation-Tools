@@ -29,6 +29,7 @@ FASTJavaCopyVisitor >> visitFASTJavaAnnotation: aFASTJavaAnnotation [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaAnnotation.
+	aFASTJavaAnnotation attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -47,6 +48,7 @@ FASTJavaCopyVisitor >> visitFASTJavaArrayAccess: aFASTJavaArrayAccess [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaArrayAccess.
+	aFASTJavaArrayAccess attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -64,6 +66,7 @@ FASTJavaCopyVisitor >> visitFASTJavaArrayAnnotationElement: aFASTJavaArrayAnnota
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaArrayAnnotationElement.
+	aFASTJavaArrayAnnotationElement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -81,6 +84,7 @@ FASTJavaCopyVisitor >> visitFASTJavaArrayInitializer: aFASTJavaArrayInitializer 
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaArrayInitializer.
+	aFASTJavaArrayInitializer attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -100,6 +104,7 @@ FASTJavaCopyVisitor >> visitFASTJavaArrayTypeExpression: aFASTJavaArrayTypeExpre
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaArrayTypeExpression.
+	aFASTJavaArrayTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -117,6 +122,7 @@ FASTJavaCopyVisitor >> visitFASTJavaAssertStatement: aFASTJavaAssertStatement [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaAssertStatement.
+	aFASTJavaAssertStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -136,6 +142,7 @@ FASTJavaCopyVisitor >> visitFASTJavaAssignmentExpression: aFASTJavaAssignmentExp
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaAssignmentExpression.
+	aFASTJavaAssignmentExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -153,6 +160,7 @@ FASTJavaCopyVisitor >> visitFASTJavaBooleanLiteral: aFASTJavaBooleanLiteral [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaBooleanLiteral.
+	aFASTJavaBooleanLiteral attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -171,6 +179,7 @@ FASTJavaCopyVisitor >> visitFASTJavaBooleanTypeExpression: aFASTJavaBooleanTypeE
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaBooleanTypeExpression.
+	aFASTJavaBooleanTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -186,6 +195,7 @@ FASTJavaCopyVisitor >> visitFASTJavaBreakStatement: aFASTJavaBreakStatement [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaBreakStatement.
+	aFASTJavaBreakStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -204,6 +214,7 @@ FASTJavaCopyVisitor >> visitFASTJavaByteTypeExpression: aFASTJavaByteTypeExpress
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaByteTypeExpression.
+	aFASTJavaByteTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -220,6 +231,7 @@ FASTJavaCopyVisitor >> visitFASTJavaCaseStatement: aFASTJavaCaseStatement [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaCaseStatement.
+	aFASTJavaCaseStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -238,6 +250,7 @@ FASTJavaCopyVisitor >> visitFASTJavaCastExpression: aFASTJavaCastExpression [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaCastExpression.
+	aFASTJavaCastExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -256,6 +269,7 @@ FASTJavaCopyVisitor >> visitFASTJavaCatchPartStatement: aFASTJavaCatchPartStatem
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaCatchPartStatement.
+	aFASTJavaCatchPartStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -274,6 +288,7 @@ FASTJavaCopyVisitor >> visitFASTJavaCharTypeExpression: aFASTJavaCharTypeExpress
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaCharTypeExpression.
+	aFASTJavaCharTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -291,6 +306,7 @@ FASTJavaCopyVisitor >> visitFASTJavaCharacterLiteral: aFASTJavaCharacterLiteral 
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaCharacterLiteral.
+	aFASTJavaCharacterLiteral attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -312,6 +328,7 @@ FASTJavaCopyVisitor >> visitFASTJavaClassDeclaration: aFASTJavaClassDeclaration 
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaClassDeclaration.
+	aFASTJavaClassDeclaration attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -332,6 +349,7 @@ FASTJavaCopyVisitor >> visitFASTJavaClassProperty: aFASTJavaClassProperty [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaClassProperty.
+	aFASTJavaClassProperty attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -352,6 +370,7 @@ FASTJavaCopyVisitor >> visitFASTJavaClassTypeExpression: aFASTJavaClassTypeExpre
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaClassTypeExpression.
+	aFASTJavaClassTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -369,6 +388,7 @@ FASTJavaCopyVisitor >> visitFASTJavaComment: aFASTJavaComment [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaComment.
+	aFASTJavaComment attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -389,6 +409,7 @@ FASTJavaCopyVisitor >> visitFASTJavaCompilationUnit: aFASTJavaCompilationUnit [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaCompilationUnit.
+	aFASTJavaCompilationUnit attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -408,6 +429,7 @@ FASTJavaCopyVisitor >> visitFASTJavaConditionalExpression: aFASTJavaConditionalE
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaConditionalExpression.
+	aFASTJavaConditionalExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -423,6 +445,7 @@ FASTJavaCopyVisitor >> visitFASTJavaContinueStatement: aFASTJavaContinueStatemen
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaContinueStatement.
+	aFASTJavaContinueStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -439,6 +462,7 @@ FASTJavaCopyVisitor >> visitFASTJavaDefaultCaseStatement: aFASTJavaDefaultCaseSt
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaDefaultCaseStatement.
+	aFASTJavaDefaultCaseStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -456,6 +480,7 @@ FASTJavaCopyVisitor >> visitFASTJavaDoWhileStatement: aFASTJavaDoWhileStatement 
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaDoWhileStatement.
+	aFASTJavaDoWhileStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -473,6 +498,7 @@ FASTJavaCopyVisitor >> visitFASTJavaDoubleLiteral: aFASTJavaDoubleLiteral [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaDoubleLiteral.
+	aFASTJavaDoubleLiteral attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -491,6 +517,7 @@ FASTJavaCopyVisitor >> visitFASTJavaDoubleTypeExpression: aFASTJavaDoubleTypeExp
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaDoubleTypeExpression.
+	aFASTJavaDoubleTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -507,6 +534,7 @@ FASTJavaCopyVisitor >> visitFASTJavaEmptyDimExpression: aFASTJavaEmptyDimExpress
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaEmptyDimExpression.
+	aFASTJavaEmptyDimExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -530,6 +558,7 @@ FASTJavaCopyVisitor >> visitFASTJavaEmptyMethodDeclaration: aFASTJavaEmptyMethod
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaEmptyMethodDeclaration.
+	aFASTJavaEmptyMethodDeclaration attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -545,6 +574,7 @@ FASTJavaCopyVisitor >> visitFASTJavaEntity: aFASTJavaEntity [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaEntity.
+	aFASTJavaEntity attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -563,6 +593,7 @@ FASTJavaCopyVisitor >> visitFASTJavaEnumConstant: aFASTJavaEnumConstant [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaEnumConstant.
+	aFASTJavaEnumConstant attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -584,6 +615,7 @@ FASTJavaCopyVisitor >> visitFASTJavaEnumDeclaration: aFASTJavaEnumDeclaration [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaEnumDeclaration.
+	aFASTJavaEnumDeclaration attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -600,6 +632,7 @@ FASTJavaCopyVisitor >> visitFASTJavaExpressionStatement: aFASTJavaExpressionStat
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaExpressionStatement.
+	aFASTJavaExpressionStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -618,6 +651,7 @@ FASTJavaCopyVisitor >> visitFASTJavaFieldAccess: aFASTJavaFieldAccess [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaFieldAccess.
+	aFASTJavaFieldAccess attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -635,6 +669,7 @@ FASTJavaCopyVisitor >> visitFASTJavaFloatLiteral: aFASTJavaFloatLiteral [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaFloatLiteral.
+	aFASTJavaFloatLiteral attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -653,6 +688,7 @@ FASTJavaCopyVisitor >> visitFASTJavaFloatTypeExpression: aFASTJavaFloatTypeExpre
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaFloatTypeExpression.
+	aFASTJavaFloatTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -672,6 +708,7 @@ FASTJavaCopyVisitor >> visitFASTJavaForEachStatement: aFASTJavaForEachStatement 
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaForEachStatement.
+	aFASTJavaForEachStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -691,6 +728,7 @@ FASTJavaCopyVisitor >> visitFASTJavaForStatement: aFASTJavaForStatement [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaForStatement.
+	aFASTJavaForStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -709,6 +747,7 @@ FASTJavaCopyVisitor >> visitFASTJavaIdentifier: aFASTJavaIdentifier [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaIdentifier.
+	aFASTJavaIdentifier attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -727,6 +766,7 @@ FASTJavaCopyVisitor >> visitFASTJavaIfStatement: aFASTJavaIfStatement [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaIfStatement.
+	aFASTJavaIfStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -745,6 +785,7 @@ FASTJavaCopyVisitor >> visitFASTJavaImportDeclaration: aFASTJavaImportDeclaratio
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaImportDeclaration.
+	aFASTJavaImportDeclaration attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -764,6 +805,7 @@ FASTJavaCopyVisitor >> visitFASTJavaInfixOperation: aFASTJavaInfixOperation [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaInfixOperation.
+	aFASTJavaInfixOperation attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -780,6 +822,7 @@ FASTJavaCopyVisitor >> visitFASTJavaInitializer: aFASTJavaInitializer [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaInitializer.
+	aFASTJavaInitializer attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -798,6 +841,7 @@ FASTJavaCopyVisitor >> visitFASTJavaIntTypeExpression: aFASTJavaIntTypeExpressio
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaIntTypeExpression.
+	aFASTJavaIntTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -815,6 +859,7 @@ FASTJavaCopyVisitor >> visitFASTJavaIntegerLiteral: aFASTJavaIntegerLiteral [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaIntegerLiteral.
+	aFASTJavaIntegerLiteral attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -835,6 +880,7 @@ FASTJavaCopyVisitor >> visitFASTJavaInterfaceDeclaration: aFASTJavaInterfaceDecl
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaInterfaceDeclaration.
+	aFASTJavaInterfaceDeclaration attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -852,6 +898,7 @@ FASTJavaCopyVisitor >> visitFASTJavaLabeledCaseStatement: aFASTJavaLabeledCaseSt
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaLabeledCaseStatement.
+	aFASTJavaLabeledCaseStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -869,6 +916,7 @@ FASTJavaCopyVisitor >> visitFASTJavaLabeledStatement: aFASTJavaLabeledStatement 
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaLabeledStatement.
+	aFASTJavaLabeledStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -887,6 +935,7 @@ FASTJavaCopyVisitor >> visitFASTJavaLambdaExpression: aFASTJavaLambdaExpression 
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaLambdaExpression.
+	aFASTJavaLambdaExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -902,6 +951,7 @@ FASTJavaCopyVisitor >> visitFASTJavaLiteral: aFASTJavaLiteral [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaLiteral.
+	aFASTJavaLiteral attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -919,6 +969,7 @@ FASTJavaCopyVisitor >> visitFASTJavaLongLiteral: aFASTJavaLongLiteral [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaLongLiteral.
+	aFASTJavaLongLiteral attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -937,6 +988,7 @@ FASTJavaCopyVisitor >> visitFASTJavaLongTypeExpression: aFASTJavaLongTypeExpress
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaLongTypeExpression.
+	aFASTJavaLongTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -960,6 +1012,7 @@ FASTJavaCopyVisitor >> visitFASTJavaMethodEntity: aFASTJavaMethodEntity [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaMethodEntity.
+	aFASTJavaMethodEntity attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -981,6 +1034,7 @@ FASTJavaCopyVisitor >> visitFASTJavaMethodInvocation: aFASTJavaMethodInvocation 
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaMethodInvocation.
+	aFASTJavaMethodInvocation attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1000,6 +1054,7 @@ FASTJavaCopyVisitor >> visitFASTJavaMethodReference: aFASTJavaMethodReference [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaMethodReference.
+	aFASTJavaMethodReference attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1017,6 +1072,7 @@ FASTJavaCopyVisitor >> visitFASTJavaModifier: aFASTJavaModifier [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaModifier.
+	aFASTJavaModifier attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1037,6 +1093,7 @@ FASTJavaCopyVisitor >> visitFASTJavaNewArray: aFASTJavaNewArray [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaNewArray.
+	aFASTJavaNewArray attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1057,6 +1114,7 @@ FASTJavaCopyVisitor >> visitFASTJavaNewClassExpression: aFASTJavaNewClassExpress
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaNewClassExpression.
+	aFASTJavaNewClassExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1076,6 +1134,7 @@ FASTJavaCopyVisitor >> visitFASTJavaNewExpression: aFASTJavaNewExpression [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaNewExpression.
+	aFASTJavaNewExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1093,6 +1152,7 @@ FASTJavaCopyVisitor >> visitFASTJavaNullLiteral: aFASTJavaNullLiteral [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaNullLiteral.
+	aFASTJavaNullLiteral attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1110,6 +1170,7 @@ FASTJavaCopyVisitor >> visitFASTJavaOuterThis: aFASTJavaOuterThis [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaOuterThis.
+	aFASTJavaOuterThis attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1126,6 +1187,7 @@ FASTJavaCopyVisitor >> visitFASTJavaPackageDeclaration: aFASTJavaPackageDeclarat
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaPackageDeclaration.
+	aFASTJavaPackageDeclaration attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1146,6 +1208,7 @@ FASTJavaCopyVisitor >> visitFASTJavaParameter: aFASTJavaParameter [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaParameter.
+	aFASTJavaParameter attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1164,6 +1227,7 @@ FASTJavaCopyVisitor >> visitFASTJavaPrimitiveTypeExpression: aFASTJavaPrimitiveT
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaPrimitiveTypeExpression.
+	aFASTJavaPrimitiveTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1182,6 +1246,7 @@ FASTJavaCopyVisitor >> visitFASTJavaQualifiedName: aFASTJavaQualifiedName [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaQualifiedName.
+	aFASTJavaQualifiedName attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1201,6 +1266,7 @@ FASTJavaCopyVisitor >> visitFASTJavaQualifiedTypeName: aFASTJavaQualifiedTypeNam
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaQualifiedTypeName.
+	aFASTJavaQualifiedTypeName attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1217,6 +1283,7 @@ FASTJavaCopyVisitor >> visitFASTJavaReturnStatement: aFASTJavaReturnStatement [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaReturnStatement.
+	aFASTJavaReturnStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1235,6 +1302,7 @@ FASTJavaCopyVisitor >> visitFASTJavaShortTypeExpression: aFASTJavaShortTypeExpre
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaShortTypeExpression.
+	aFASTJavaShortTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1250,6 +1318,7 @@ FASTJavaCopyVisitor >> visitFASTJavaStatement: aFASTJavaStatement [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaStatement.
+	aFASTJavaStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1266,6 +1335,7 @@ FASTJavaCopyVisitor >> visitFASTJavaStatementBlock: aFASTJavaStatementBlock [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaStatementBlock.
+	aFASTJavaStatementBlock attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1283,6 +1353,7 @@ FASTJavaCopyVisitor >> visitFASTJavaStringLiteral: aFASTJavaStringLiteral [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaStringLiteral.
+	aFASTJavaStringLiteral attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1300,6 +1371,7 @@ FASTJavaCopyVisitor >> visitFASTJavaSwitchStatement: aFASTJavaSwitchStatement [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaSwitchStatement.
+	aFASTJavaSwitchStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1317,6 +1389,7 @@ FASTJavaCopyVisitor >> visitFASTJavaSynchronizedStatement: aFASTJavaSynchronized
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaSynchronizedStatement.
+	aFASTJavaSynchronizedStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1335,6 +1408,7 @@ FASTJavaCopyVisitor >> visitFASTJavaThis: aFASTJavaThis [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaThis.
+	aFASTJavaThis attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1351,6 +1425,7 @@ FASTJavaCopyVisitor >> visitFASTJavaThrowStatement: aFASTJavaThrowStatement [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaThrowStatement.
+	aFASTJavaThrowStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1370,6 +1445,7 @@ FASTJavaCopyVisitor >> visitFASTJavaTryCatchStatement: aFASTJavaTryCatchStatemen
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaTryCatchStatement.
+	aFASTJavaTryCatchStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1388,6 +1464,7 @@ FASTJavaCopyVisitor >> visitFASTJavaTypeExpression: aFASTJavaTypeExpression [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaTypeExpression.
+	aFASTJavaTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1406,6 +1483,7 @@ FASTJavaCopyVisitor >> visitFASTJavaTypeName: aFASTJavaTypeName [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaTypeName.
+	aFASTJavaTypeName attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1425,6 +1503,7 @@ FASTJavaCopyVisitor >> visitFASTJavaTypeParameterExpression: aFASTJavaTypeParame
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaTypeParameterExpression.
+	aFASTJavaTypeParameterExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1444,6 +1523,7 @@ FASTJavaCopyVisitor >> visitFASTJavaUnaryExpression: aFASTJavaUnaryExpression [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaUnaryExpression.
+	aFASTJavaUnaryExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1462,6 +1542,7 @@ FASTJavaCopyVisitor >> visitFASTJavaVarDeclStatement: aFASTJavaVarDeclStatement 
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaVarDeclStatement.
+	aFASTJavaVarDeclStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1479,6 +1560,7 @@ FASTJavaCopyVisitor >> visitFASTJavaVariableDeclarator: aFASTJavaVariableDeclara
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaVariableDeclarator.
+	aFASTJavaVariableDeclarator attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1497,6 +1579,7 @@ FASTJavaCopyVisitor >> visitFASTJavaVariableExpression: aFASTJavaVariableExpress
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaVariableExpression.
+	aFASTJavaVariableExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1515,6 +1598,7 @@ FASTJavaCopyVisitor >> visitFASTJavaVoidTypeExpression: aFASTJavaVoidTypeExpress
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaVoidTypeExpression.
+	aFASTJavaVoidTypeExpression attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1532,6 +1616,7 @@ FASTJavaCopyVisitor >> visitFASTJavaWhileStatement: aFASTJavaWhileStatement [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaWhileStatement.
+	aFASTJavaWhileStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1548,6 +1633,7 @@ FASTJavaCopyVisitor >> visitFASTTExpressionStatement: aFASTJavaExpressionStateme
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaExpressionStatement.
+	aFASTJavaExpressionStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1563,6 +1649,7 @@ FASTJavaCopyVisitor >> visitFASTTLiteral: aFASTJavaLiteral [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaLiteral.
+	aFASTJavaLiteral attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1579,6 +1666,7 @@ FASTJavaCopyVisitor >> visitFASTTReturnStatement: aFASTJavaReturnStatement [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaReturnStatement.
+	aFASTJavaReturnStatement attributeAt: #copy put: copy.
 	^ copy
 ]
 
@@ -1595,5 +1683,6 @@ FASTJavaCopyVisitor >> visitFASTTStatementBlock: aFASTJavaStatementBlock [
 		yourself.
 
 	copy attributeAt: #original put: aFASTJavaStatementBlock.
+	aFASTJavaStatementBlock attributeAt: #copy put: copy.
 	^ copy
 ]
